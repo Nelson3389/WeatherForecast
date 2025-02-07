@@ -14,7 +14,9 @@ struct ContentView: View {
             Image(systemName: "sun.max.fill")
                 .foregroundStyle(Color.yellow)
             Text("High: 70")
+                .foregroundStyle(Color.red)
             Text("Low: 50")
+                .foregroundStyle(Color.blue)
         }
         .padding()
     }
